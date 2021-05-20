@@ -1,0 +1,120 @@
+body {
+    cursor: default;
+    background-color: rgb(250, 250, 250);
+    
+}
+
+#topHeader {
+    grid-area: top;
+    background-color: lightblue;
+    /*height: 5em;*/
+    width: 100%;
+    text-align: center;
+    border-radius: 0.1em;
+}
+/*
+.centerName {
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*/
+.name {
+    /*margin-left: 2%;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    margin: auto;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+#leftBar {
+    grid-area: left;
+    margin: 0.2em;
+    display: flex;
+    flex-direction: column;
+    /*
+    width: 25%;*/
+    /* height: 65%; */
+    background-color: rgb(235, 235, 235);
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0.1em;
+
+    overflow: auto;
+    white-space: nowrap;
+}
+#leftTop {
+    width: 100%;
+    background-color: rgb(184, 184, 184);;
+}
+
+.barItem {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(194, 194, 194);
+    width: 90%;
+    height: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0em;
+    margin-bottom: 0.4em;
+    border-radius: 0.1em;
+    border: 0px;
+    
+}
+
+.barItem:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+.barItem:active {
+    background-color: rgb(184, 184, 184);
+}
+
+
+#mainArea {
+    grid-area: main;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    margin-top: 0.2em;
+    padding: 1em;
+    /* height: 65%; */
+    background-color: rgb(235, 235, 235);
+    border-radius: 0.1em;
+}
+
+#homeElement {
+    position: absolute;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: lightblue;
+    margin-top: 0.3em;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.1em;
+}
+
+.footerText {
+    /*margin-left: 2%;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-areas: 
+    'top top top top top top'
+    'left main main main main main'
+    'footer footer footer footer footer footer';
+    gap: 0.2em;
+    font-size: 20px;
+    grid-template-rows: 20%, 50%, 10%;
+}

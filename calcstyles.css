@@ -1,0 +1,35 @@
+td {
+    width: 10%;
+    background-color: lightgray;
+}
+
+tr {
+    height: 1.5em;
+}
+
+table {
+    font-size: 2em;
+    border: 5px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#calculator {
+    border: 10px solid black;
+    padding: 0% 2% 2% 2%;
+    width: 12%;
+    margin-left: 2%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: beige;
+    position: absolute;
+}
+
+#display {
+    background-color: lightblue;
+    padding: 0.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 3px solid darkgray;
+    border-radius: 2px;
+}
