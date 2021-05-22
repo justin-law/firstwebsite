@@ -86,8 +86,9 @@ body {
     border-radius: 0.1em;
 }
 
-#homeElement {
+.mainElement {
     position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #footer {

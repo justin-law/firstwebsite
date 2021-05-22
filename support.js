@@ -7,6 +7,21 @@ $(document).ready(function (){
         $("#homeElement").show();
     });
 
+    $("#aboutNav").click(function() {
+        $(".mainElement").hide();
+        $("#about").show();
+    });
+
+    $("#projectNav").click(function() {
+        $(".mainElement").hide();
+        $("#projects").show();
+    });
+
+    $("#contactNav").click(function() {
+        $(".mainElement").hide();
+        $("#contact").show();
+    });
+
     $("#calcButton").click(function() {
         $(".mainElement").hide();
         $("#calculator").show();
